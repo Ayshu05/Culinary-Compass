@@ -1,0 +1,121 @@
+/* index.css */
+
+/* Body styles */
+@import url('https://fonts.googleapis.com/css2?family=Trattatello&display=swap');
+
+/* Apply Trattatello font to the heading */
+.heading {
+  font-family: 'Trattatello', fantasy;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif; /* Fancy font */
+  background: linear-gradient(to right top, #ff7eb3, #ff6ba6, #ff579a, #ff458d, #ff3180); /* Pinkish gradient background */
+  color: #333; /* Text color */
+}
+
+
+/* Styles for the container */
+.container {
+  padding: 0 2rem; /* Add left and right spacing */
+}
+
+
+/* Styles for the main container */
+.py-20 {
+  padding-top: 5rem; /* Adjust as needed */
+  padding-bottom: 5rem; /* Adjust as needed */
+}
+
+/* Styles for the Recipe Finder title */
+.text-4xl {
+  font-size: 3rem; /* Adjust as needed */
+  font-weight: bold;
+  text-align: center;
+  color: #fff; /* White text color */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text shadow */
+}
+
+/* Styles for the search input */
+#search {
+  font-size: 1.5rem; /* Adjust as needed */
+}
+
+/* Styles for the articles */
+.article {
+  background-color: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex; /* Display articles in a row */
+  margin-bottom: 2rem; /* Adjust margin as needed */
+}
+
+/* Styles for the image */
+.img-container {
+  flex: 0 0 50%; /* Set image container width to 50% */
+}
+
+/* Styles for the image */
+img {
+  width: 100%; /* Set image width to 100% of container */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 1rem 0 0 1rem; /* Rounded corners on left side */
+}
+
+/* Styles for the article content */
+.content {
+  padding: 2rem; /* Add padding to content */
+  flex: 0 0 50%; /* Set content width to 50% */
+  display: flex;
+  flex-direction: column;
+}
+
+/* Styles for the meal name */
+.text-3xl {
+  font-size: 2rem; /* Adjust as needed */
+  font-weight: bold;
+  color: #333; /* Text color */
+}
+
+/* Styles for the category and area spans */
+.span {
+  background-color: #f0f0f0;
+  font-size: 0.875rem; /* Adjust as needed */
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.5rem;
+}
+
+/* Styles for the ingredients list */
+ul {
+  padding-left: 1rem;
+}
+
+/* Styles for the instructions */
+.text-2xl {
+  font-size: 1.5rem; /* Adjust as needed */
+  font-weight: bold;
+  color: #333; /* Text color */
+}
+
+/* Styles for the buttons */
+a {
+  background-color: #f0f0f0;
+  font-size: 1rem; /* Adjust as needed */
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  background-color: #e0e0e0;
+  color: #333;
+}
+
+/* Container for left margin */
+.content-container {
+  margin-left: 2rem; /* Adjust margin as needed */
+}
